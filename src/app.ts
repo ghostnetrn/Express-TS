@@ -16,7 +16,7 @@ app.use(express.json());
 app.use(morganMiddleware)
 
 // Routes
-app.use('/api/', router)
+app.use('/api', router)
 
 app.listen(PORT, async () => {
   await db()
