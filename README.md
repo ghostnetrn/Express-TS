@@ -12,7 +12,7 @@ npm install
 
 ## Configuração
 
-Antes de executar o projeto, você precisará configurar algumas variáveis de ambiente em um arquivo `.env`. Para isso, crie um arquivo `.env` na raiz do projeto e adicione as seguintes variáveis:
+Antes de executar o projeto, você precisará configurar algumas variáveis de ambiente em um arquivo `.env`. Para isso, renomeie o arquivo `.env.example` para `.env` na raiz do projeto e adicione as seguintes variáveis:
 
 ```
 DB_USER=
